@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "tailwindcss": "^3.2.6"
+  },
+  "scripts": {
+    "tailwind-dev": "npx tailwindcss -i ./input.css -o ./public/css/output.css --watch",
+    "tailwind-prod": "npx tailwindcss -i ./input.css -o ./public/css/output.css --watch --minify"
+  }
+}
